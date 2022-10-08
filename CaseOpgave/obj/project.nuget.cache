@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OS6bqL4eVh5APXiCArP5Ytw+gUwuobYKYlMLKZMCzG0FA4B1Y3H4d1DJDNJmggt72iwnljuNfHTjxpjY3fk1Ow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\olive\\source\\repos\\Case\\CaseOpgave\\CaseOpgave\\CaseOpgave.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olive\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

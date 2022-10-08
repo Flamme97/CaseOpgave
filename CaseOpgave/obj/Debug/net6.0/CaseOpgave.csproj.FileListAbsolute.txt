@@ -1,0 +1,17 @@
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\obj\Debug\net6.0\CaseOpgave.csproj.AssemblyReference.cache
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\obj\Debug\net6.0\CaseOpgave.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\obj\Debug\net6.0\CaseOpgave.AssemblyInfoInputs.cache
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\obj\Debug\net6.0\CaseOpgave.AssemblyInfo.cs
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\obj\Debug\net6.0\CaseOpgave.csproj.CoreCompileInputs.cache
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\bin\Debug\net6.0\CaseOpgave.exe
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\bin\Debug\net6.0\CaseOpgave.deps.json
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\bin\Debug\net6.0\CaseOpgave.runtimeconfig.json
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\bin\Debug\net6.0\CaseOpgave.dll
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\bin\Debug\net6.0\CaseOpgave.pdb
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\obj\Debug\net6.0\CaseOpgave.csproj.CopyComplete
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\obj\Debug\net6.0\CaseOpgave.dll
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\obj\Debug\net6.0\refint\CaseOpgave.dll
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\obj\Debug\net6.0\CaseOpgave.pdb
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\obj\Debug\net6.0\CaseOpgave.genruntimeconfig.cache
+C:\Users\olive\source\repos\Case\CaseOpgave\CaseOpgave\obj\Debug\net6.0\ref\CaseOpgave.dll
