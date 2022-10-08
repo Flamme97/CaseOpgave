@@ -1,12 +1,8 @@
 ﻿using CsvHelper.Configuration.Attributes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CaseOpgave.models
 {
+    // get and set for current User CSV File
     internal class CurrentUser
     {
         [Index(0)]

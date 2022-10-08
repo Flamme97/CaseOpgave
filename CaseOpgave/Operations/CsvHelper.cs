@@ -1,29 +1,23 @@
 ﻿using CaseOpgave.models;
 using CsvHelper;
 using CsvHelper.Configuration;
-using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CaseOpgave.Operations
 {
     static class CsvHelpers
-    {
+    {   
+        // Using Cvs library, csv configuration to read Csv from assigment packets.
         public static CsvConfiguration Config()
-        {
-
+        { 
             var config = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
                 HasHeaderRecord = false,
-                MissingFieldFound = null
+                MissingFieldFound = null,
             };
             return config;
         }
-
+        // Adding CSV Data to record list. List with CurrentUser Data.
         public static List<CurrentUser> ParseCurrentUser()
         {
             CsvConfiguration config = Config();
@@ -35,6 +29,7 @@ namespace CaseOpgave.Operations
                 return records.ToList();
             }
         }
+        // Adding CSV Data to record list. List with Product Data.
         public static List<Product> ParseProduct()
         {
             CsvConfiguration config = Config();
@@ -46,6 +41,7 @@ namespace CaseOpgave.Operations
                 return records.ToList();
             }
         }
+        // Adding CSV Data to record list. List with User ID.
         public static List<User> ParseUser()
         {
             CsvConfiguration config = Config();

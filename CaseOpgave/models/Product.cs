@@ -1,12 +1,8 @@
 ﻿using CsvHelper.Configuration.Attributes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CaseOpgave.models
 {
+    // get and set for Product CSV File
     internal class Product
     {
         [Index(0)]
@@ -31,29 +27,29 @@ namespace CaseOpgave.models
         public float price { get; set; }
         public string[] allKeywords;
 
+        // setting up Genre/keyword to list. 
         public void keywordtoList()
         {
             allKeywords[0] = KeywordONE;
             allKeywords[1] = KeywordTWO;
-            allKeywords[2] = KeywordTHREE;  
-            allKeywords[3] = KeywordFOUR;   
-            allKeywords[4] = KeywordFIVE;     
+            allKeywords[2] = KeywordTHREE;
+            allKeywords[3] = KeywordFOUR;
+            allKeywords[4] = KeywordFIVE;
         }
+        // creating list to setup from Keywords and returning keywords
         public List<string> getKeywordsTolist()
         {
-
             List<string> keywords = new List<string>();
             keywords.Add(this.KeywordONE);
             keywords.Add(this.KeywordTWO);
             keywords.Add(this.KeywordTHREE);
-            keywords.Add(this.KeywordFOUR); 
+            keywords.Add(this.KeywordFOUR);
             keywords.Add(this.KeywordFIVE);
-        return keywords;
+            return keywords;
         }
+        // Splitting the string into a new list, so special characters gets removed from list.
         public static List<string> product(string productSplit)
-        {
-
-
+        { 
             List<string> returnlist = new List<string>();
 
             string[] subs = productSplit.Split(", ");
@@ -64,8 +60,6 @@ namespace CaseOpgave.models
             }
             return returnlist;
         }
-
-
         public Product(int id, string movieName, string year, string keywordONE,
             string keywordTWO, string keywordTHREE, string keywordFOUR, string keywordFIVE,
             float rating, float price)

@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CsvHelper.Configuration;
-using CsvHelper;
-using CsvHelper.Configuration.Attributes;
+﻿using CsvHelper.Configuration.Attributes;
 
 namespace CaseOpgave.models
 {
@@ -21,10 +14,9 @@ namespace CaseOpgave.models
         public string purchased { get; set; }
         //private List<string> purchasedSplit { get; set; }
 
+        // Splitting the string into a new list, so special characters gets removed from list.
         public static List<string> ListSplit(string purchasedSplit)
         {
-
-
             List<string> returnlist = new List<string>();
 
             string[] subs = purchasedSplit.Split(" ;");
@@ -35,7 +27,6 @@ namespace CaseOpgave.models
                 }
                 return returnlist;
         }
-
         public User(int id, string name, string viewed, string purchased)
         {
             this.id = id;
